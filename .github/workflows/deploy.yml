@@ -33,4 +33,4 @@ jobs:
         username: deploy@thezentrox.com
         password: Deploy@#123@3
         local-dir: /build
-        server-dir: /public_html/thezentrox.com  # Adjust this to your public directory
+        server-dir: /public_html/thezentrox.com 
