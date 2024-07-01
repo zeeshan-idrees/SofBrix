@@ -3,7 +3,7 @@ name: Deploy React to cPanel
 on:
   push:
     branches:
-      - main  # Adjust this if your main branch is named differently
+      - master  # Adjust this if your main branch is named differently
 
 jobs:
   deploy:
