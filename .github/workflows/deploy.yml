@@ -24,7 +24,7 @@ jobs:
         CI: false  # Sometimes needed to bypass certain CI environment checks in scripts
 
     - name: Build project
-      run: npm run build
+      run: CI=false npm run build
 
     - name: Deploy to cPanel
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
