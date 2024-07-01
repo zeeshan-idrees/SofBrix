@@ -32,5 +32,5 @@ jobs:
         server: ftp.thezentrox.com
         username: deploy@thezentrox.com
         password: Deploy@#123@3
-        local-dir: build
+        local-dir: /build
         server-dir: /public_html/thezentrox.com  # Adjust this to your public directory
